@@ -1,0 +1,11 @@
+{
+  "/test/json": {
+    "get": {
+      "delay": 200,
+      "data": {
+        "code": "0",
+        "msg": "Hello World!"
+      }
+    }
+  }
+}
