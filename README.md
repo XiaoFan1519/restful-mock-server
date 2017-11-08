@@ -57,7 +57,11 @@ Assuming installation via NPM, you can load this module in your application like
 
 ```js
 var mockServer = require("restful-mock-server");
-mockServer(options);
+mockServer({
+  ...
+  watch: ['test/*.json']
+  ...
+});
 ```
 
 
